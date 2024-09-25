@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: #00933e;
+}
+
+header {
+    min-width: 100%;
+    width: 100%;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    background-color: #00ae44;
+    border-bottom: 1px solid #fff;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00ae44;
+}
+
+.logo{
+    width: 114px;
+    padding-left: 25px;
+    background: #00ae44;
+}
+
+header nav .menu {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    padding-left: 50%;
+}
+
+header nav .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 600;
+}
+
+header nav .social-app {
+    display: flex;
+    gap: 4px;
+    list-style: none;
+    padding-right: 60px;
+}
+
+.social-app img{
+    width: 25px;
+}
+
+section.image{
+    margin-top: -3.5px;
+    margin-bottom: -4px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.texts{
+    position: absolute;
+    top: 53%;
+    left: 8%;
+    color: white;
+    font-family: cursive;
+}
+.txt-1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.button-txt{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: .9rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.image-1 img{
+    width: 100%;
+}
+.juic-banner-txt{
+    position: absolute;
+    top: 33%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 55%;
+}
+.banner-txts {
+    width: 45%;
+    margin: auto;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 0 43px 0;
+}
+.recipes-h1{
+    font-family: sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.txt-p{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: 22px 25px 22px;
+    margin: 0 0 10px;
+    display: block;
+    margin-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 1em;
+    unicode-bidi: isolate;
+}
+.viwe-recipes{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    font-size: 19px;
+    padding: 7px 36px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section .image-1 {
+    border-bottom: -1px;
+}
+#bottl-img{
+    width: 100%;
+    margin: 0;
+    position: relative;
+    background-size: cover;
+}
+.bottl-banner-txts1{
+    position: absolute;
+    top: 26%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 105%;
+}
+.bottl-txts{
+    width: 45%;
+    margin: auto;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 0 43px 0;
+}
+.store-locator{
+    font-size: 36px;
+    text-transform: uppercase;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin: .67em 0;
+    font-family: sans-serif;
+}
+.bottl-p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 2.8vh;
+    padding: 6px 25px 22px;
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottl-button {
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 30px;
+    padding: 7px 36px;
+    font-size: 19px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer {
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+    background: #3e3e3e; 
+}
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px 30px 60px;
+    text-align: center;
+}
+.utility {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0 0 12px;
+    padding: 0;
+    list-style: none;
+    gap: 20px;
+    padding-bottom: 17px;
+}
+.utility li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+#footer .box p{
+    color: white;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
